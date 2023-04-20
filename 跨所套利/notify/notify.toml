@@ -1,0 +1,36 @@
+# 飞书配置
+[lark]
+bot_url = "https://open.larksuite.com/open-apis/bot/v2/hook/xxx"
+
+# 企业微信
+[weixin]
+bot_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx"
+
+# 钉钉
+[dingtalk]
+bot_url = "https://oapi.dingtalk.com/robot/send?access_token=d09e73bda049e13ad821777d0ab7f68c1cf0b5c00e846ac0fd317203ca213944"
+secret = "SECabd5e33fde1e8264233c851cb4859ab132efd39d0848617488cb8143d57d1bc6"
+
+# telegram
+[telegram]
+token = "xxx:AAFgkJ--yyy"
+chat_id = 1
+
+# discord
+[discord]
+bot_url = "https://discord.com/api/webhooks/xxx/xxx"
+
+# bark
+[bark]
+server_url = "https://bark.cn"
+token = "xxx"
+
+# 邮件
+[mail]
+smtp_server =  "mail.harvestpress.com"
+smtp_port =  465
+username =  "forhad@harvestpress.com"
+password =  "757244hp"
+to_address =  ['chaoxian20220628@163.com']
+
+#to_address =  ['jointsmoke853@gmail.com']
